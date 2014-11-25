@@ -1,0 +1,5 @@
+1. What happens when you initialize a repository? Why do you need to do it?
+A .git file is added to track commits. Need to initialize the repository to give a start point of the tracking process.
+
+2. How is the staging area different from the working directory and the repository? What value do you think it offers?
+Working directory is the general area where the files are stored. Where as the staging area is the logical bundle that is committed when complete. 
