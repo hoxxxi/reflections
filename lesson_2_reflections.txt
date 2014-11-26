@@ -3,3 +3,20 @@ A .git file is added to track commits. Need to initialize the repository to give
 
 2. How is the staging area different from the working directory and the repository? What value do you think it offers?
 Working directory is the general area where the files are stored. Where as the staging area is the logical bundle that is committed when complete. 
+
+3. How can you use the staging area to make sure you have one commit per logical change?
+If the developer has developed a large portion of code without committing he can break it down in the staging area to logical parts and commit them separately.
+
+4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches would allow to work out different aspects of the final product from a safe point and then merge them.
+
+5. How do the diagrams help you visualize the branch structure?
+Helps you understand that if you work on a branch this shows your contribution and at some point you have to add it to the main version. In case you directly checkout the master branch without merging it with the local contribution, unless the ID of the branch is stored, you would not have access to the code in the local branch.
+It also displays that the master is not the newest branch, however it would be more logical if it is the latest branch that works well.
+
+6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+We create a new common point where we copy all common elements and we add all the elements from each branch that are not contradictory. The representation on the graph reflects that from the new access point we can access commits from both branches chronologically.
+
+7.What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros: Quick combination of two solutions. Still reflects any conflicts and notifies the developer so it would not add commits that do not compile.
+Cons: No control over the order in which the statements is added. Could lose track what is in the code if automatically merged with a huge branch. 
