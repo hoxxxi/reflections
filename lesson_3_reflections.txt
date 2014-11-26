@@ -8,3 +8,6 @@ Because you might work on a new version that is not ready to be shared with the 
 Fork copies a repository on GitHub to a new repository on your account (keeping history of previous commits).
 Clone copies an online repository to your local machine or copies a local repository to another location.
 Branches extend current commits to give a view of how the code should progress.
+
+4. What is the benefit of having a copy of the last known state of the remote stored locally?
+So that the user can merge it with his/her current most recent version.
