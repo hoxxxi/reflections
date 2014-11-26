@@ -11,3 +11,10 @@ Branches extend current commits to give a view of how the code should progress.
 
 4. What is the benefit of having a copy of the last known state of the remote stored locally?
 So that the user can merge it with his/her current most recent version.
+
+5. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+GitHub enables developers to contribute to each others code however, the main author has to accept the changes. But it also gives you an opportunity to continue with a branch on your personal repository if you think that they are wrong not to accept the change.
+The hard bit is getting used to all the commands. But it is empowering to use the git shell as it gives you very logical functionality.
+
+6. When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+Usually, developers could work on a new feature, test it and than eventually add it to the master branch. That way you have a working version while you are working on new features and even if you dramatically fail in your attempt to introduce the new features you can always revert to the latest working version and give it another try.
